@@ -51,7 +51,7 @@ public class BananaBlock extends Block {
     private static Field BLOCK_INFO_MATERIAL;
     private static Field BLOCK_INFO_STRENGTH;
 
-    protected static Map< Long, DBlock > GLOBAL_BLOCK_MAP = new ConcurrentHashMap< Long, DBlock >();
+    protected static Map< Long, DBlock > GLOBAL_BLOCK_MAP = new ConcurrentHashMap<>();
 
     static {
         try {
